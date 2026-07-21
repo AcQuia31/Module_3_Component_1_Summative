@@ -4,7 +4,7 @@
 // ===========================================
 
 const runTasksButton = document.getElementById("runTasksButton");
-const outputElement = "";
+console.log(outputElement = document.getElementById("selectedOutput"));
 
 // ===========================================
 // DATA
@@ -73,12 +73,12 @@ export function runTasks() {
         outputElement.innerHTML = "";
     }
 
-    displayResult("Task 1", addMark());
-    displayResult("Task 2", getMarksOver60());
-    displayResult("Task 3", increaseMarksBy5());
-    displayResult("Task 4", getTotalMarks());
-    displayResult("Task 5", findFirstMarkOver80());
-    displayResult("Task 6", sortMarksLowestToHighest());
+    displayResult("Task 1", addMark(addMark(70)[30,45,60,85,95,70]));
+    displayResult("Task 2", getMarksOver60(return new array with marks greater than 60[60,85,95]));
+    displayResult("Task 3", increaseMarksBy5(add 5 to each mark in the array)[35,50,65,75,95]);
+    displayResult("Task 4", getTotalMarks(return the total of all marks in the array[45,60,85,30,95]));
+    displayResult("Task 5", findFirstMarkOver80(return first mark greater than 80 in the array[85,95]));
+    displayResult("Task 6", sortMarksLowestToHighest(return marks sorted from lowest to highest in the array[30,45,60,85,95][30,45,60,85,95]));
 
 }
 
@@ -87,4 +87,4 @@ export function runTasks() {
 // SECTION A 
 // ===========================================
 
-runTasksButton
+eventListener(, "click",HashChangeEvent);
